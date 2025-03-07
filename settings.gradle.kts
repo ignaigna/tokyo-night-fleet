@@ -1,7 +1,7 @@
-rootProject.name = "my-theme-plugin-project"
+rootProject.name = "ignaigna.tokyo.night.fleet"
 
-include(":my-theme-plugin")
-include(":my-theme-plugin:frontendImpl")
+include(":ignaigna.tokyo.night.fleet.fleet")
+include(":ignaigna.tokyo.night.fleet:frontendImpl")
 
 pluginManagement {
     repositories {

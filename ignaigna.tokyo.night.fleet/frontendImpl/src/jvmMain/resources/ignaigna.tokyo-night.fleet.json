@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "theme.name": "Tokyo Night",
+    "theme.kind": "Dark",
+    "theme.version": 8
+  },
+  "colors": {
+    "text.primary": "TokyoNight_Foreground",
+    "text.secondary": "TokyoNight_ForegroundSecondary",
+    "text.tertiary": "TokyoNight_ForegroundTertiary",
+    "text.disabled": "TokyoNight_DisabledForeground",
+    "text.bright": "White",
+
+    "background.primary": "TokyoNight_Background",
+    "background.secondary": "TokyoNight_SidebarBackground",
+    "border": "TokyoNight_Border",
+    "border.focused": "TokyoNight_FocusBorder",
+    "focusOutline": "TokyoNight_FocusOutline",
+
+    "editor.caret.background": "TokyoNight_Caret",
+    "editor.caret.border": "TokyoNight_Caret",
+    "editor.currentLine.background.default": "TokyoNight_LineHighlight",
+    "editor.currentLine.background.focused": "TokyoNight_LineHighlight",
+    "editor.currentLine.scrollbarMark": "TokyoNight_ForegroundSecondary",
+    "editor.lineNumber.current": "TokyoNight_ActiveLineNumber",
+    "editor.lineNumber.default": "TokyoNight_LineNumber",
+    "editor.text": "TokyoNight_Foreground",
+    "editor.whitespaceIndicator": "TokyoNight_Whitespace",
+    "editor.foldedMark.background": "TokyoNight_FoldBackground",
+    "editor.foldedMark.text": "TokyoNight_ForegroundSecondary",
+
+    "editor.gitDiff.background.added": "TokyoNight_DiffAddedBg",
+    "editor.gitDiff.background.deleted": "TokyoNight_DiffDeletedBg",
+    "editor.gitDiff.background.modified": "TokyoNight_DiffModifiedBg",
+    "editor.gitDiff.text.added": "TokyoNight_DiffAddedFg",
+    "editor.gitDiff.text.deleted": "TokyoNight_DiffDeletedFg",
+    "editor.gitDiff.text.modified": "TokyoNight_DiffModifiedFg",
+
+    "tab.background.default": "TokyoNight_TabBackground",
+    "tab.background.hovered": "TokyoNight_TabBackground",
+    "tab.background.selected": "TokyoNight_TabActiveBackground",
+    "tab.background.selectedFocused": "TokyoNight_TabActiveBackground",
+    "tab.border.default": "TokyoNight_TabBorder",
+    "tab.border.hovered": "TokyoNight_TabBorder",
+    "tab.border.selected": "TokyoNight_TabActiveBorder",
+    "tab.border.selectedFocused": "TokyoNight_TabActiveBorder",
+    "tab.text.default": "TokyoNight_TabInactiveForeground",
+    "tab.text.hovered": "TokyoNight_TabHoverForeground",
+    "tab.text.selected": "TokyoNight_TabActiveForeground",
+    "tab.text.selectedFocused": "TokyoNight_TabActiveForeground",
+
+    "statusBar.text.default": "TokyoNight_StatusBarForeground",
+    "statusBar.text.hovered": "TokyoNight_StatusBarForeground",
+    "statusBar.text.pressed": "TokyoNight_StatusBarForeground",
+
+    "button.primary.background.default": "TokyoNight_ButtonBackground",
+    "button.primary.background.disabled": "Transparent",
+    "button.primary.background.hovered": "TokyoNight_ButtonHoverBackground",
+    "button.primary.background.pressed": "TokyoNight_ButtonPressedBackground",
+    "button.primary.border.default": "TokyoNight_ButtonBackground",
+    "button.primary.border.disabled": "TokyoNight_DisabledBorder",
+    "button.primary.border.hovered": "TokyoNight_ButtonHoverBackground",
+    "button.primary.border.pressed": "TokyoNight_ButtonPressedBackground",
+    "button.primary.text.default": "TokyoNight_ButtonForeground",
+    "button.primary.text.disabled": "TokyoNight_DisabledForeground",
+    "button.primary.text.hovered": "TokyoNight_ButtonForeground",
+    "button.primary.text.pressed": "TokyoNight_ButtonForeground",
+
+    "scrollbar.thumb.default": "TokyoNight_ScrollbarThumb",
+    "scrollbar.thumb.hovered": "TokyoNight_ScrollbarThumbHover",
+    "scrollbar.thumb.pressed": "TokyoNight_ScrollbarThumbActive",
+    "scrollbar.track.default": "Transparent",
+    "scrollbar.track.hovered": "TokyoNight_ScrollbarTrackHover",
+    "scrollbar.track.pressed": "TokyoNight_ScrollbarTrackHover",
+
+    "sideBar.background.default": "TokyoNight_SidebarBackground",
+    "sideBar.text.default": "TokyoNight_SidebarForeground",
+    "sideBar.border.default": "TokyoNight_SidebarBorder",
+
+    "listItem.background.default": "Transparent",
+    "listItem.background.focused": "TokyoNight_ListFocusBackground",
+    "listItem.background.hovered": "TokyoNight_ListHoverBackground",
+    "listItem.background.selected": "TokyoNight_ListActiveBackground",
+    "listItem.border.default": "Transparent",
+    "listItem.border.focused": "Transparent",
+    "listItem.border.hovered": "Transparent",
+    "listItem.border.selected": "Transparent",
+    "listItem.text.default": "TokyoNight_ListForeground",
+    "listItem.text.focused": "TokyoNight_ListFocusForeground",
+    "listItem.text.hovered": "TokyoNight_ListHoverForeground",
+    "listItem.text.selected": "TokyoNight_ListActiveForeground",
+
+    "terminal.background": "TokyoNight_TerminalBackground",
+    "terminal.foreground": "TokyoNight_TerminalForeground",
+    "terminal.selectionBackground": "TokyoNight_TerminalSelection",
+
+    "terminal.ansiColors.foreground.ansiBlack": "TokyoNight_TermBlack",
+    "terminal.ansiColors.foreground.ansiRed": "TokyoNight_TermRed",
+    "terminal.ansiColors.foreground.ansiGreen": "TokyoNight_TermGreen",
+    "terminal.ansiColors.foreground.ansiYellow": "TokyoNight_TermYellow",
+    "terminal.ansiColors.foreground.ansiBlue": "TokyoNight_TermBlue",
+    "terminal.ansiColors.foreground.ansiMagenta": "TokyoNight_TermMagenta",
+    "terminal.ansiColors.foreground.ansiCyan": "TokyoNight_TermCyan",
+    "terminal.ansiColors.foreground.ansiWhite": "TokyoNight_TermWhite",
+    "terminal.ansiColors.foreground.ansiBrightBlack": "TokyoNight_TermBlack",
+    "terminal.ansiColors.foreground.ansiBrightRed": "TokyoNight_TermRed",
+    "terminal.ansiColors.foreground.ansiBrightGreen": "TokyoNight_TermGreen",
+    "terminal.ansiColors.foreground.ansiBrightYellow": "TokyoNight_TermYellow",
+    "terminal.ansiColors.foreground.ansiBrightBlue": "TokyoNight_TermBlue",
+    "terminal.ansiColors.foreground.ansiBrightMagenta": "TokyoNight_TermMagenta",
+    "terminal.ansiColors.foreground.ansiBrightCyan": "TokyoNight_TermCyan",
+    "terminal.ansiColors.foreground.ansiBrightWhite": "TokyoNight_TermBrightWhite"
+  },
+  "textAttributes": {
+    "editor.text.scheme": {
+      "foregroundColor": "TokyoNight_Foreground"
+    },
+    "editor.selection": {
+      "backgroundColor": "TokyoNight_Selection"
+    },
+    "editor.selection.focused": {
+      "backgroundColor": "TokyoNight_SelectionFocused"
+    },
+    "editor.brace.match": {
+      "backgroundColor": "TokyoNight_BracketMatchBackground",
+      "border": {
+        "color": "TokyoNight_BracketMatchBorder"
+      }
+    },
+    "comment": {
+      "foregroundColor": "TokyoNight_Comment",
+      "fontStyle": "ITALIC"
+    },
+    "comment.doc": {
+      "foregroundColor": "TokyoNight_CommentDoc",
+      "fontStyle": "ITALIC"
+    },
+    "comment.doc.tag": {
+      "foregroundColor": "TokyoNight_CommentDocTag",
+      "fontStyle": "ITALIC"
+    },
+    "keyword": {
+      "foregroundColor": "TokyoNight_Keyword",
+      "fontStyle": "ITALIC"
+    },
+    "keyword.control.flow": {
+      "foregroundColor": "TokyoNight_Keyword",
+      "fontStyle": "ITALIC"
+    },
+    "number": {
+      "foregroundColor": "TokyoNight_Number"
+    },
+    "boolean": {
+      "foregroundColor": "TokyoNight_Boolean"
+    },
+    "string": {
+      "foregroundColor": "TokyoNight_String"
+    },
+    "string.escape": {
+      "foregroundColor": "TokyoNight_StringEscape"
+    },
+    "string.regexp": {
+      "foregroundColor": "TokyoNight_Regexp"
+    },
+    "identifier": {
+      "foregroundColor": "TokyoNight_Identifier"
+    },
+    "identifier.constant": {
+      "foregroundColor": "TokyoNight_Constant"
+    },
+    "identifier.variable": {
+      "foregroundColor": "TokyoNight_Variable"
+    },
+    "identifier.function.declaration": {
+      "foregroundColor": "TokyoNight_FunctionDeclaration"
+    },
+    "identifier.function.call": {
+      "foregroundColor": "TokyoNight_FunctionCall"
+    },
+    "identifier.type": {
+      "foregroundColor": "TokyoNight_Type"
+    },
+    "identifier.field": {
+      "foregroundColor": "TokyoNight_Property"
+    },
+    "identifier.parameter": {
+      "foregroundColor": "TokyoNight_Parameter"
+    },
+    "identifier.this": {
+      "foregroundColor": "TokyoNight_This",
+      "fontStyle": "ITALIC"
+    },
+    "punctuation": {
+      "foregroundColor": "TokyoNight_Punctuation"
+    },
+    "punctuation.operator": {
+      "foregroundColor": "TokyoNight_Operator"
+    },
+
+    "attributeName.html": {
+      "foregroundColor": "TokyoNight_TagAttribute"
+    },
+    "attributeValue.html": {
+      "foregroundColor": "TokyoNight_String"
+    },
+    "tag.html": {
+      "foregroundColor": "TokyoNight_TagPunctuation"
+    },
+    "tagName.html": {
+      "foregroundColor": "TokyoNight_Tag"
+    },
+    "tagName.custom.html": {
+      "foregroundColor": "TokyoNight_TagCustom"
+    },
+
+    "key.json": {
+      "foregroundColor": "TokyoNight_JsonKey"
+    },
+
+    "diff.added": {
+      "backgroundColor": "TokyoNight_DiffAddedBg"
+    },
+    "diff.added.word": {
+      "backgroundColor": "TokyoNight_DiffAddedWord"
+    },
+    "diff.deleted": {
+      "backgroundColor": "TokyoNight_DiffDeletedBg"
+    },
+    "diff.deleted.word": {
+      "backgroundColor": "TokyoNight_DiffDeletedWord"
+    },
+    "diff.modified": {
+      "backgroundColor": "TokyoNight_DiffModifiedBg"
+    },
+    "diff.modified.word": {
+      "backgroundColor": "TokyoNight_DiffModifiedWord"
+    }
+  },
+  "palette": {
+    "White": "#ffffff",
+    "Transparent": "#ffffff00",
+
+    "TokyoNight_Background": "#1a1b26",
+    "TokyoNight_Foreground": "#a9b1d6",
+    "TokyoNight_ForegroundSecondary": "#787c99",
+    "TokyoNight_ForegroundTertiary": "#565f89",
+    "TokyoNight_DisabledForeground": "#545c7e",
+
+    "TokyoNight_SidebarBackground": "#16161e",
+    "TokyoNight_SidebarForeground": "#787c99",
+    "TokyoNight_SidebarBorder": "#101014",
+
+    "TokyoNight_Border": "#101014",
+    "TokyoNight_FocusBorder": "#545c7e33",
+    "TokyoNight_FocusOutline": "#545c7e33",
+    "TokyoNight_DisabledBorder": "#0f0f14",
+
+    "TokyoNight_LineHighlight": "#1e202e",
+    "TokyoNight_LineNumber": "#363b54",
+    "TokyoNight_ActiveLineNumber": "#787c99",
+    "TokyoNight_Whitespace": "#363b54",
+    "TokyoNight_FoldBackground": "#1111174a",
+
+    "TokyoNight_Selection": "#515c7e4d",
+    "TokyoNight_SelectionFocused": "#515c7e66",
+    "TokyoNight_BracketMatchBackground": "#16161e",
+    "TokyoNight_BracketMatchBorder": "#42465d",
+
+    "TokyoNight_Caret": "#c0caf5",
+
+    "TokyoNight_ScrollbarThumb": "#868bc415",
+    "TokyoNight_ScrollbarThumbHover": "#868bc422",
+    "TokyoNight_ScrollbarThumbActive": "#868bc430",
+    "TokyoNight_ScrollbarTrackHover": "#868bc410",
+
+    "TokyoNight_TabBackground": "#16161e",
+    "TokyoNight_TabActiveBackground": "#16161e",
+    "TokyoNight_TabBorder": "#101014",
+    "TokyoNight_TabActiveBorder": "#3d59a1",
+    "TokyoNight_TabInactiveForeground": "#787c99",
+    "TokyoNight_TabHoverForeground": "#a9b1d6",
+    "TokyoNight_TabActiveForeground": "#a9b1d6",
+
+    "TokyoNight_StatusBarForeground": "#787c99",
+
+    "TokyoNight_ButtonBackground": "#3d59a1dd",
+    "TokyoNight_ButtonHoverBackground": "#3d59a1aa",
+    "TokyoNight_ButtonPressedBackground": "#3d59a199",
+    "TokyoNight_ButtonForeground": "#ffffff",
+
+    "TokyoNight_ListForeground": "#a9b1d6",
+    "TokyoNight_ListHoverForeground": "#a9b1d6",
+    "TokyoNight_ListFocusForeground": "#a9b1d6",
+    "TokyoNight_ListActiveForeground": "#a9b1d6",
+    "TokyoNight_ListHoverBackground": "#13131a",
+    "TokyoNight_ListActiveBackground": "#1c1d29",
+    "TokyoNight_ListFocusBackground": "#202330",
+
+    "TokyoNight_DiffAddedBg": "#41a6b520",
+    "TokyoNight_DiffAddedWord": "#41a6b540",
+    "TokyoNight_DiffDeletedBg": "#db4b4b22",
+    "TokyoNight_DiffDeletedWord": "#db4b4b44",
+    "TokyoNight_DiffModifiedBg": "#3d59a133",
+    "TokyoNight_DiffModifiedWord": "#3d59a166",
+
+    "TokyoNight_DiffAddedFg": "#449dab",
+    "TokyoNight_DiffDeletedFg": "#914c54",
+    "TokyoNight_DiffModifiedFg": "#6183bb",
+
+    "TokyoNight_Comment": "#565f89",
+    "TokyoNight_CommentDoc": "#5a638c",
+    "TokyoNight_CommentDocTag": "#646e9c",
+
+    "TokyoNight_Keyword": "#bb9af7",
+    "TokyoNight_Number": "#ff9e64",
+    "TokyoNight_Boolean": "#ff9e64",
+    "TokyoNight_String": "#9ece6a",
+    "TokyoNight_StringEscape": "#89ddff",
+    "TokyoNight_Regexp": "#b4f9f8",
+    "TokyoNight_Identifier": "#c0caf5",
+    "TokyoNight_Variable": "#c0caf5",
+    "TokyoNight_Constant": "#ff9e64",
+    "TokyoNight_FunctionDeclaration": "#7aa2f7",
+    "TokyoNight_FunctionCall": "#7aa2f7",
+    "TokyoNight_Type": "#2ac3de",
+    "TokyoNight_Property": "#7dcfff",
+    "TokyoNight_Parameter": "#e0af68",
+    "TokyoNight_This": "#f7768e",
+    "TokyoNight_Punctuation": "#9abdf5",
+    "TokyoNight_Operator": "#89ddff",
+
+    "TokyoNight_Tag": "#f7768e",
+    "TokyoNight_TagCustom": "#de5971",
+    "TokyoNight_TagPunctuation": "#ba3c97",
+    "TokyoNight_TagAttribute": "#bb9af7",
+
+    "TokyoNight_JsonKey": "#7aa2f7",
+
+    "TokyoNight_TermBlack": "#363b54",
+    "TokyoNight_TermRed": "#f7768e",
+    "TokyoNight_TermGreen": "#73daca",
+    "TokyoNight_TermYellow": "#e0af68",
+    "TokyoNight_TermBlue": "#7aa2f7",
+    "TokyoNight_TermMagenta": "#bb9af7",
+    "TokyoNight_TermCyan": "#7dcfff",
+    "TokyoNight_TermWhite": "#787c99",
+    "TokyoNight_TermBrightWhite": "#acb0d0",
+    "TokyoNight_TerminalBackground": "#16161e",
+    "TokyoNight_TerminalForeground": "#787c99",
+    "TokyoNight_TerminalSelection": "#515c7e4d"
+  }
+}
