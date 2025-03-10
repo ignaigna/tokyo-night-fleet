@@ -57,5 +57,5 @@ This theme is released under the MIT License.
 
 ## 🙏 Acknowledgements
 
-- Inspired by the original [Tokyo Night VS Code theme](https://github.com/enkia/tokyo-night-vscode-theme)
+- Inspired by the original [Tokyo Night VS Code theme](https://github.com/tokyo-night/tokyo-night-vscode-theme)
 - Thanks to the JetBrains team for creating Fleet
